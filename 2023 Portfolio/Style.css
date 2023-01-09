@@ -1,0 +1,7 @@
+#personal-info {
+    display: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+  }
+  

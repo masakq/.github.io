@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Benjamin Kakai's Portfolio</title>
+  <style>
+    /* Add some style to the page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d3d3d3;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 1.2em;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .social-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 0.9em;
+      transition: 0.3s;
+    }
+    .social-button:hover {
+      background-color: white;
+      color: #333;
+    }
+    .logo {
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Add a logo -->
+    <img src="Image.jpeg" alt="Logo" class="logo">
+    <h1>Benjamin Kakai's Portfolio</h1>
+
+    <!-- Add a button for personal information -->
+    <button id="personal-info-button">Personal Information</button>
+  </header>
+  <main>
+    <div id="personal-info">
+      <h2>Personal Information</h2>
+      <p>Name: Benjamin Kakai</p>
+        <p>Address: P.O Box 30197 Nairobi</p>
+
+        <p>Telephone: 0746026037</p>
+        <p>Email: benjaminkakai001@gmail.com</p>
+      </div>
+      <!-- HTML content -->
+      <script>
+        const button = document.getElementById('personal-info-button');
+        const personalInfo = document.getElementById('personal-info');
+
+        button.addEventListener('click', function() {
+          if (personalInfo.style.display === 'none') {
+            personalInfo.style.display = 'block';
+          } else {
+            personalInfo.style.display = 'none';
+          }
+        });
+      </script>
+      
+<a href="#" onclick="
+  document.getElementById('education').innerHTML = 
+  '<h2>Education Background</h2>' +
+  '<p>Jan. 2006-Nov 2014 - St Mary\'s Primary School</p>' +
+  '<p>I schooled at St Mary and was the second-best student in the class of 2014, securing a place in the best national secondary school, Alliance High School.</p>' +
+  '<p>Feb 2015- Nov 2018 - Alliance High School</p>' +
+  '<p>The high school enabled me to interact with many students owing to the large school population, with everyone coming from a different background with differing ideas and standards contributing to my critical reasoning. The schoolmates were different best brains from all over the country in classwork and extracurricular activities. I sat for my fourth form examination and passed with excellent grades. Luckily, this landed me at the best university in the country. But before joining, I took a gap year due to the university schedule.</p>' +
+  '<p>Jan. 2019 - Dec.2019 - Gap Year</p>' +
+  '<p>I engaged in community service and other activities that improved my technical and soft skills during this time.</p>' +
+  '<p>January 2020 - Date: The University of Nairobi Bachelor\'s in Economics</p>' +
+  '<p>May 2021- Mount Kenya University Bachelor\'s in Information Technology</p>'
+">Education Background</a>
+
+<div id="education"></div>
+
+ <a href="#" onclick="
+  document.getElementById('skills').innerHTML = 
+  '<h3>Technical Skills</h3>' +
+  '<p>I am a proficient software developer with 16 months of experience. I can code proficiently in JavaScript, CSS, and HTML using the ReactJS framework. I also have basic skills in Java, Python, and the Android framework. Moreover, I am a skilled data scientist with proficient skills in Python matplotlib, SQL, Libre Calc, and JASP. My Github account, where you can track my learning progress, contributions, and accomplished projects, is @BenjaminKakai. As a front-end software developer, I can utilize these skills to help your organization achieve its goals by solving different programming tasks proficiently and on time.</p>' +
+  '<h3>Soft Skills</h3>' +
+  '<p>I also have marketing skills which I have utilized in other companies while working as a part-timer to help the organizations achieve maximum output.</p>'
+">Skills</a>
+
+<div id="skills"></div>
+
+<a href="#" onclick="
+  document.getElementById('experience').innerHTML = 
+  '<h2>Work Experience and Projects</h2>' +
+  '<p>Jan 2020 - Date: Freelancer in Software Developer</p>' +
+  '<p>Since January 2020, I have been learning and working on numerous personal and private projects as a freelancer. The experience made me confident that I am a proficient software developer. My coding progress and tasks can all be tracked in my Github repository @BenjaminKakai. I worked on some projects alone while also doing others in a group. All the group work has proven that I am a team player. I have accomplished numerous projects using HTML, CSS, javascript, typescript, and java. I have also used python for different data analysis tasks. An example of a simple basic project I did while interning includes; https://bkmzuri.github.io/bmZuri.github.io/. You can follow the rest of my projects on my GitHub profile with the button on how to reach me in the footer section.</p>'
+">Work Experience</a>
+
+<div id="experience"></div>
+
+<a href="#" onclick="
+  
+
+<div id="projects"></div>
+
+<a href="#" onclick="
+  document.getElementById('hobbies').innerHTML = 
+  '<h2>Hobbies</h2>' +
+  '<ul>' +
+  '  <li>Coding and programming</li>' +
+  '  <li>Playing Basketball</li>' +
+  '  <li>Writing and reading articles</li>' +
+  '</ul>'
+">Hobbies</a>
+
+<div id="hobbies"></div>
+
+</main>
+  <footer>
+    <!-- Add social media buttons -->
+    <a href="https://www.linkedin.com/in/benjaminkakai/" class="social-button">LinkedIn</a>
+    <a href="https://github.com/bkmzuri" class="social-button">GitHub</a>
+    <a href="https://twitter.com/bkmzuri" class="social-button">Twitter</a>
+
+    <!-- Add a contact form -->
+    <form action="#">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5"></textarea><br>
+      <input type="submit" value="Submit">
+      </form>
+  </footer>
+</body>
+</html>
+
+
+
+
